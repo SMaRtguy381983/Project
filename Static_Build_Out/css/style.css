@@ -1,0 +1,88 @@
+/*MAIN*/
+body {
+  background-color: #666666;
+  font-family: Helvetica Neue;
+  margin: 0%;
+}
+header {
+  background-color:  rgba(253, 254, 254, 0.70);
+  width: 100%;
+}
+
+/*LOGO*/
+header>img:nth-of-type(1) {
+  padding: 3.5%;
+  width: 20%;
+}
+
+/*NAVIGATION*/
+nav {
+  background-color: rgba(253, 254, 254, 0.70);
+  position: absolute;
+  right: 0%;
+  width: 100%;
+}
+a:first-of-type {
+  color: #191919;
+  display: inline-block;
+  padding: 0% 0% 0% 20%;
+  text-decoration: none;
+}
+a {
+  color: #191919;
+  display: inline-block;
+  padding: 0% 0% 0% 15%;
+  text-decoration: none;
+}
+
+/*BODY*/
+section:nth-of-type(1) {
+  float: left;
+  padding: 10% 0% 0% 5%;
+  text-align: center;
+  width: 45%;
+}
+section:nth-of-type(1)>img:nth-of-type(1) {
+  padding: 5% 2.5% 7.5%;
+  width: 50%;
+}
+section:nth-of-type(2) {
+  float: right;
+  padding: 10% 5% 0% 0%;
+  text-align: center;
+  width: 45%;
+}
+section:nth-of-type(2)>img:nth-of-type(1) {
+  padding: 5% 2.5% 7.5%;
+  width: 26.5%;
+}
+h2 {
+  color: #FDFEFE;
+  font-family: Phosphate;
+  font-size: 3.5em;
+  margin-bottom: 2.5%;
+}
+section>p {
+  clear: both;
+  color: #FDFEFE;
+  font-size: 1.5em;
+  margin: 0 auto;
+  width: 50%;
+}
+body>img{
+  padding: 5% 0% 20% 15%;
+  width: 70%
+}
+
+/*FOOTER*/
+footer{
+  background-color:  rgba(253, 254, 254, 0.70);
+  width: 100%;
+}
+h6 {
+  color: #191919;
+  font-weight: bolder;
+  margin: 0%;
+  padding: 1.5% 0%;
+  text-align: center;
+}

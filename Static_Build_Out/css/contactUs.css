@@ -5,7 +5,7 @@ body {
   margin: 0%;
 }
 header {
-  background-color:  rgba(253, 254, 254, 0.70);
+  background-color:  #C0C0C0;
   width: 100%;
 }
 
@@ -17,7 +17,7 @@ header>img:nth-of-type(1) {
 
 /*NAVIGATION*/
 nav {
-  background-color: rgba(253, 254, 254, 0.70);
+  background-color: #C0C0C0;
   position: absolute;
   right: 0%;
   width: 100%;
@@ -76,7 +76,7 @@ body>img{
 
 /*FOOTER*/
 footer{
-  background-color:  rgba(253, 254, 254, 0.70);
+  background-color:  #C0C0C0;
   width: 100%;
 }
 h6 {

@@ -1,11 +1,11 @@
 /*MAIN*/
 body {
-  background-color: #666666;
+  background-color: #333333;
   font-family: Helvetica Neue;
   margin: 0%;
 }
 header {
-  background-color:  #C0C0C0;
+  background-color:  #E7E7E7;
   width: 100%;
 }
 
@@ -17,7 +17,7 @@ header>img:nth-of-type(1) {
 
 /*NAVIGATION*/
 nav {
-  background-color: #C0C0C0;
+  background-color: #E7E7E7;
   position: absolute;
   right: 0%;
   width: 100%;
@@ -76,7 +76,7 @@ body>img{
 
 /*FOOTER*/
 footer{
-  background-color:  #C0C0C0;
+  background-color:  #E7E7E7;
   width: 100%;
 }
 h6 {

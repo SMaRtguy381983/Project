@@ -1,0 +1,21 @@
+<section>
+  <img src="./assets/img/suitcaseLogo.png" alt="Your Suitcase"></img>
+  <h2>Your Suitcases</h2>
+  <p>YOUR SUITCASES is where you can view, edit and delete lists you have packed or create new lists for a future trip.</p>
+</section>
+<section>
+  <p><a href="#/suitcases/{{ suitcaseKey }}#unpacked-items">Go back</a></p>
+  <table id="packed-items">
+    <tr>
+      <th>Unpack Item</th>
+      <th>Item Name</th>
+      <th colspan="2">Actions</th>
+    </tr>
+    <tr ng-repeat="packedItem in packedItems track by $index">
+      <td><button ng-click="onTick(packedItem)">Unpack</button></td>
+      <td>{{ packedItem.name }}</td>
+      <td><a href="#/suitcases/{{ suitcaseKey }}/packedItems/{{ packedItem.key }}/delete">Delete</a></td>
+      <td><a href="#/suitcases/{{ suitcaseKey }}/packedItems/{{ packedItem.key }}/update">Update</a></td>
+    </tr>
+  </table>
+</section>

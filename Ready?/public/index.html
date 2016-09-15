@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Ready?</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.3.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyD17bIMDUom8cS4_lVGtFOTZYJUbQT-wBY",
+        authDomain: "ready-rogersshaunsms1609.firebaseapp.com",
+        databaseURL: "https://ready-rogersshaunsms1609.firebaseio.com",
+        storageBucket: "ready-rogersshaunsms1609.appspot.com",
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/controllers/ContactUsController.js"></script>
+    <script src="./assets/js/controllers/CreateSuitcaseController.js"></script>
+    <script src="./assets/js/controllers/CreateUnpackedItemController.js"></script>
+    <script src="./assets/js/controllers/DeletePackedItemController.js"></script>
+    <script src="./assets/js/controllers/DeleteSuitcaseController.js"></script>
+    <script src="./assets/js/controllers/DeleteUnpackedItemController.js"></script>
+    <script src="./assets/js/controllers/IndexController.js"></script>
+    <script src="./assets/js/controllers/PackedSuitcaseController.js"></script>
+    <script src="./assets/js/controllers/PassportController.js"></script>
+    <script src="./assets/js/controllers/SuitcaseController.js"></script>
+    <script src="./assets/js/controllers/SuitcasesController.js"></script>
+    <script src="./assets/js/controllers/UpdatePackedItemController.js"></script>
+    <script src="./assets/js/controllers/UpdateSuitcaseController.js"></script>
+    <script src="./assets/js/controllers/UpdateUnpackedItemController.js"></script>
+  </head>
+  <body ng-app="ready">
+    <header>
+      <img src="./assets/img/logo(Large).png" alt="Ready?"></img>
+      <nav>
+        <a href="#/index">Your Travel Agent</a>
+        <a href="#/suitcases">Your Suitcases</a>
+        <a href="#/passport">Your Passport</a>
+        <a href="#/contactUs">Contact Us</a>
+      </nav>
+    </header>
+    <section ng-view></section>
+    <footer>
+      <h6>Unpublished Work ©2016 Ready?</h6>
+    </footer>
+  </body>
+</html>

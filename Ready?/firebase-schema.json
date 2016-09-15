@@ -1,0 +1,110 @@
+{
+  "stockActivities" : {
+    "beach" : true,
+    "hiking" : true,
+    "rafting" : true,
+    "skiing" : true,
+    "swimming" : true
+  },
+  "stockClimates" : {
+    "cold" : true,
+    "hot" : true,
+    "warm" : true
+  },
+  "stockItems" : [ {
+    "activities" : {
+      "beach" : true,
+      "hiking" : true,
+      "rafting" : true,
+      "skiing" : true,
+      "swimming" : true
+    },
+    "climate" : {
+      "cold" : true,
+      "hot" : true,
+      "warm" : true
+    },
+    "name" : "Sun Screen",
+    "timeCreated" : "00-00-00",
+    "timeModified" : "00-00-00"
+  }, {
+    "activities" : {
+      "beach" : true,
+      "rafting" : true,
+      "swimming" : true
+    },
+    "climate" : {
+      "hot" : true,
+      "warm" : true
+    },
+    "name" : "Swimming Trunks",
+    "timeCreated" : "00-00-00",
+    "timeModified" : "00-00-00"
+  } ],
+  "suitcases" : [ {
+    "name" : "Louis",
+    "unpackedItems" : [ {
+      "activities" : {
+        "beach" : true,
+        "hiking" : true,
+        "rafting" : true,
+        "skiing" : true,
+        "swimming" : true
+      },
+      "climate" : {
+        "cold" : true,
+        "hot" : true,
+        "warm" : true
+      },
+      "name" : "Sun Screen",
+      "timeCreated" : "00-00-00",
+      "timeModified" : "00-00-00"
+    }, {
+      "activities" : {
+        "beach" : true,
+        "rafting" : true,
+        "swimming" : true
+      },
+      "climate" : {
+        "hot" : true,
+        "warm" : true
+      },
+      "name" : "Swimming Trunks",
+      "timeCreated" : "00-00-00",
+      "timeModified" : "00-00-00"
+    } ]
+  }, {
+    "name" : "Carry On",
+    "packedItems" : [ {
+      "activities" : {
+        "beach" : true,
+        "hiking" : true,
+        "rafting" : true,
+        "skiing" : true,
+        "swimming" : true
+      },
+      "climate" : {
+        "cold" : true,
+        "hot" : true,
+        "warm" : true
+      },
+      "name" : "Sun Screen",
+      "timeCreated" : "00-00-00",
+      "timeModified" : "00-00-00"
+    } ],
+    "unpackedItems" : [ {
+      "activities" : {
+        "beach" : true,
+        "rafting" : true,
+        "swimming" : true
+      },
+      "climate" : {
+        "hot" : true,
+        "warm" : true
+      },
+      "name" : "Swimming Trunks",
+      "timeCreated" : "00-00-00",
+      "timeModified" : "00-00-00"
+    } ]
+  } ]
+}

@@ -1,0 +1,13 @@
+<h2>Delete a Suitcase</h2>
+
+<p><a href="#/suitcases#suitcases">Go back</a></p>
+
+<form ng-submit="onSubmit()">
+  <p><strong>Warning, this cannot be undone!</strong></p>
+
+  <p>Want to delete this suitcase? Type the name (<strong><em><span ng-bind="suitcase.name"></span><em><strong>) below.</p>
+
+  <input ng-model="confirmInput" placeholder="{{ suitcase.name }}" autofocus>
+
+  <button type="submit">Delete</button>
+</form>

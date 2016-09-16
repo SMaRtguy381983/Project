@@ -45,7 +45,7 @@ body>section {
 /*ROUTES*/
 @font-face {
   font-family: "Phosphate";
-  src:url('http://ufonts.com/download/phosphatesolid/64566.html')  format('truetype')
+  src:url('http://ufonts.com/q64566') format('truetype');
 }
 h2{
   color: #FDFEFE;

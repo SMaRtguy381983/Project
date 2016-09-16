@@ -43,17 +43,15 @@ body>section {
 }
 
 /*ROUTES*/
-@font-face {
-    font-family: 'phosphatesolidmedium';
-    src: url('ufonts.com_phosphatesolid-2-webfont.woff2') format('woff2'),
-         url('ufonts.com_phosphatesolid-2-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+.mainSuitcase {
+  float:left;
+}
+.mainPassport {
+  float: right
 }
 h2{
   color: #FDFEFE;
-  font-family: 'phosphatesolidmedium', Helvetica Neue, sans-serif;
+  font-family: 'Phosphate', Helvetica Neue, sans-serif;
   font-size: 3.5em;
   text-align: center;
 }

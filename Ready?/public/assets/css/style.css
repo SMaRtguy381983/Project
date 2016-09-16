@@ -43,13 +43,9 @@ body>section {
 }
 
 /*ROUTES*/
-@font-face {
-    font-family: Phosphate;
-    src: url(http://fontzone.net/downloadfile/phosphatesolid);
-}
 h2{
   color: #FDFEFE;
-  font-family: Phosphate, Helvetica Neue, sans-serif;
+  font-family: "Phosphate", Helvetica Neue, sans-serif;
   font-size: 3.5em;
   text-align: center;
 }

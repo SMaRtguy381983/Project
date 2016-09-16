@@ -45,7 +45,9 @@ body>section {
 /*ROUTES*/
 @font-face {
   font-family: "Phosphate";
-  src:url('http://ufonts.com/q64566') format('truetype');
+  src: url('http://ufonts.com/downloads/64566~585723153'); /* IE9 Compat Modes */
+  src: url('http://ufonts.com/downloads/64566!585723153') format('truetype');
+  src: url('http://ufonts.com/downloads/64566_585723153') format('woff'); /* Pretty Modern Browsers */
 }
 h2{
   color: #FDFEFE;

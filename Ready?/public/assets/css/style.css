@@ -44,10 +44,12 @@ body>section {
 
 /*ROUTES*/
 @font-face {
-  font-family: "Phosphate";
-  src: url('https://ufonts.com/downloads/64566~585723153');
-  src: url('https://ufonts.com/downloads/64566!585723153') format('truetype');
-  src: url('https://ufonts.com/downloads/64566_585723153') format('woff');
+    font-family: 'phosphatesolidmedium';
+    src: url('ufonts.com_phosphatesolid-2-webfont.woff2') format('woff2'),
+         url('ufonts.com_phosphatesolid-2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 h2{
   color: #FDFEFE;

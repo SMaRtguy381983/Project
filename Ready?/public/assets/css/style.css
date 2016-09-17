@@ -43,21 +43,14 @@ body>section {
 }
 
 /*ROUTES*/
-.mainSuitcase {
+.indexSuitcase {
   float:left;
-  margin: 0 auto;
-  width: 40%;
+  width: 50%;
 }
-.mainSuitcase>img {
-  float:none;
-}
-.mainPassport {
+.indexPassport {
+  background-color: #222222;
   float: right;
-  margin 0 auto;
-  width: 40%;
-}
-.mainPassport>img {
-  float: none;
+  width: 50%;
 }
 h2{
   color: #FDFEFE;
@@ -69,17 +62,12 @@ section>section {
   padding: 5% 5%;
   width: 90%;
 }
-section>section:nth-of-type(even) {
-  background-color: #222222;
-}
 section>section:after {
-/*section>section:nth-of-type(1):after {*/
   clear: both;
   content: "";
   display: table;
 }
 section>section>img {
-/*section>section:nth-of-type(1)>img {*/
   float: left;
   height: auto;
   padding: 5% 0%;
@@ -118,14 +106,6 @@ section>button>a {
   color: #191919;
   text-decoration: none;
   transform: scale(2);
-}
-aside {
-  clear: both;
-  width: 100%;
-}
-aside>img {
-  padding: 5% 0% 5% 25%;
-  width: 50%;
 }
 
 /*FORMS */

@@ -5,22 +5,19 @@
 </section>
 <section>
   <button><a href="#/suitcases/{{ suitcaseKey }}/unpackedItems/create">Create Item</a></button>
-
   <button><a href="#/suitcases/{{ suitcaseKey }}/packedItems">View Packed Items</a></button>
-
-  <p><a href="#/suitcases#suitcases">Go back</a></p>
-
+  <p class="goBack"><a href="#/suitcases#suitcases">Go back</a></p>
   <table id="unpacked-items">
     <tr>
       <th>Pack Item</th>
       <th>Item Name</th>
-      <th colspan="2">Actions</th>
+      <th colspan="2">What do you want to do?</th>
     </tr>
     <tr ng-repeat="unpackedItem in unpackedItems track by $index">
       <td><button ng-click="onTick(unpackedItem)">Pack</button></td>
       <td>{{ unpackedItem.name }}</td>
-      <td><a href="#/suitcases/{{ suitcaseKey }}/unpackedItems/{{ unpackedItem.key }}/delete">Delete</a></td>
-      <td><a href="#/suitcases/{{ suitcaseKey }}/unpackedItems/{{ unpackedItem.key }}/update">Update</a></td>
+      <td><a href="#/suitcases/{{ suitcaseKey }}/unpackedItems/{{ unpackedItem.key }}/delete">Delete this Item</a></td>
+      <td><a href="#/suitcases/{{ suitcaseKey }}/unpackedItems/{{ unpackedItem.key }}/update">Update this Item</a></td>
     </tr>
   </table>
 </section>

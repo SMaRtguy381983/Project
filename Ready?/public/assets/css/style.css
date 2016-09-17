@@ -10,7 +10,7 @@ header {
 }
 
 /*LOGO*/
-header>img:nth-of-type(1) {
+header>a>img {
   height: auto;
   padding: 3.5%;
   width: 20%;
@@ -45,18 +45,45 @@ body>section {
 /*ROUTES*/
 .indexSuitcase {
   float:left;
+  width: 40%;
+}
+.indexSuitcase>a {
+  margin: 0 auto;
+  width: 100%;
+}
+.indexSuitcase>a>img {
+  display: block;
+  margin: 0 auto;
   width: 50%;
 }
-.indexSuitcase>a img {
+.indexSuitcase>h2 {
   margin: 0 auto;
+  width: 100%;
+}
+.indexSuitcase>p {
+  margin: 0 auto;
+  width: 100%;
 }
 .indexPassport {
-  background-color: #222222;
   float: right;
-  width: 50%;
+  width: 40%;
 }
-.indexPassport>a img {
+.indexPassport>a {
   margin: 0 auto;
+  width: 100%
+}
+.indexPassport>a>img {
+  display: block;
+  margin: 0 auto;
+  width: 26.5%;
+}
+.indexPassport>h2 {
+  margin: 0 auto;
+  width: 100%;
+}
+.indexPassport>p {
+  margin: 0 auto;
+  width: 100%;
 }
 h2{
   color: #FDFEFE;
@@ -73,14 +100,19 @@ section>section:after {
   content: "";
   display: table;
 }
-section>section>img {
+.headerSuitcase>img {
   float: left;
   height: auto;
   padding: 5% 0%;
   width: 20%;
 }
+.headerPassport>img {
+  float: left;
+  height: auto;
+  padding: 5% 0%;
+  width: 15%;
+}
 section>section>h2 {
-/*section>section:nth-of-type(1)>h2 {*/
   color: #FDFEFE;
   float: right;
   font-family: Phosphate;
@@ -89,7 +121,6 @@ section>section>h2 {
   width: 80%;
 }
 section>section>p {
-/*section>section:nth-of-type(1)>p {*/
   color: #FDFEFE;
   float: right;
   font-size: 1.5em;
@@ -115,15 +146,20 @@ section>button>a {
 }
 
 /*FORMS */
-p>a {
-  color: #FDFEFE;
-  margin: 0% 0% 5% 14%;
-  font-size: inherit;
-  text-decoration: none;
+.goBack>a {
+  color: #83934F;
+  position: fixed;
+	display: block;
+	top: 10px;
+	left: 90%;
 }
 form {
   margin: 0 auto 15% auto;
   width: 28.5%;
+}
+form>p {
+  color: #FDFEFE;
+  font-size: 1.5em;
 }
 form>button {
   margin: 0% 0% 0% 10%;
@@ -138,6 +174,14 @@ form>button>a{
 }
 form>input {
   font-size: 1.8em;
+}
+.stubborn1 {
+  font-size: 1.8em;
+}
+.stubborn2 {
+  margin: 0% 0% 0% 10%;
+  text-decoration: none;
+  transform: scale(2);
 }
 
 /*TABLE (Suitcase)*/
@@ -170,6 +214,13 @@ section>table tr td a {
   font-size: .8em;
   text-decoration: none;
 }
+section table tr>td>button {
+  border-radius: 10%;
+  color: #191919;
+  font-size: .8em;
+  text-decoration: none;
+}
+
 
 /*FOOTER*/
 footer{

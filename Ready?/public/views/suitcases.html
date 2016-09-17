@@ -1,19 +1,19 @@
-<section>
+<section class="headerSuitcase">
   <img src="./assets/img/suitcaseLogo.png" alt="Your Suitcase"></img>
   <h2>Your Suitcases</h2>
   <p>YOUR SUITCASES is where you can view, edit and delete lists you have packed or create new lists for a future trip.</p>
 </section>
-<section>
+<section class="createSuitcase">
   <button><a href="#/suitcases/create">Create Suitcase</a></button>
   <table id="suitcases">
     <tr>
       <th>Suitcase Name</th>
-      <th colspan="2">Actions</th>
+      <th colspan="2">What do you want to do?</th>
     </tr>
     <tr ng-repeat="suitcase in suitcases track by $index">
       <td><a href="#/suitcases/{{ suitcase.key }}">{{ suitcase.name }}</a></td>
-      <td><a href="#/suitcases/{{ suitcase.key }}/delete">Delete</a></td>
-      <td><a href="#/suitcases/{{ suitcase.key }}/update">Update</a></td>
+      <td><a href="#/suitcases/{{ suitcase.key }}/delete">Delete this Suitcase</a></td>
+      <td><a href="#/suitcases/{{ suitcase.key }}/update">Update this Suitcase Name</a></td>
     </tr>
   </table>
 </section>

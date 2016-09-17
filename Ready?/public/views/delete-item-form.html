@@ -1,13 +1,13 @@
 <h2>{{ pageTitle }}</h2>
 
-<p><a href="{{ goBack }}">Go back</a></p>
+<p class="goBack"><a href="{{ goBack }}">Go back</a></p>
 
 <form ng-submit="onSubmit()">
   <p><strong>Warning, this cannot be undone!</strong></p>
 
   <p>Want to delete this item? Type the name (<strong><em><span ng-bind="item.name"></span><em><strong>) below.</p>
 
-  <input ng-model="confirmInput" placeholder="{{ item.name }}" autofocus>
+  <input class="stubborn1" ng-model="confirmInput" placeholder="{{ item.name }}" autofocus>
 
-  <button type="submit">Delete</button>
+  <button class="stubborn2" type="submit">Delete</button>
 </form>

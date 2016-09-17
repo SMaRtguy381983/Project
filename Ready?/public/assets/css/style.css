@@ -48,10 +48,16 @@ body>section {
   margin: 0 auto;
   width: 40%;
 }
+.mainSuitcase>img {
+  float:none;
+}
 .mainPassport {
   float: right;
   margin 0 auto;
   width: 40%;
+}
+.mainPassport>img {
+  float: none;
 }
 h2{
   color: #FDFEFE;

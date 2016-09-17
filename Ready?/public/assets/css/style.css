@@ -45,9 +45,13 @@ body>section {
 /*ROUTES*/
 .mainSuitcase {
   float:left;
+  margin: 0 auto;
+  width: 40%;
 }
 .mainPassport {
-  float: right
+  float: right;
+  margin 0 auto;
+  width: 40%;
 }
 h2{
   color: #FDFEFE;

@@ -47,10 +47,16 @@ body>section {
   float:left;
   width: 50%;
 }
+.indexSuitcase>a img {
+  margin: 0 auto;
+}
 .indexPassport {
   background-color: #222222;
   float: right;
   width: 50%;
+}
+.indexPassport>a img {
+  margin: 0 auto;
 }
 h2{
   color: #FDFEFE;
